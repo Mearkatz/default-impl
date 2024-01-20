@@ -3,7 +3,7 @@ name = "default-impl"
 version = "0.1.0"
 edition = "2021"
 authors = ["beetle"]
-description = "A macro for implementing traits using their default implementations"
+description = "A macro for implementing traits with their default implementations"
 license = "MIT"
 
 
