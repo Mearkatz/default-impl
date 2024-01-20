@@ -1,0 +1,17 @@
+[package]
+name = "default-impl"
+version = "0.1.0"
+edition = "2021"
+authors = ["beetle"]
+description = "A macro for implementing traits using their default implementations"
+license = "MIT"
+
+
+[lints.clippy]
+enum_glob_use = "deny"
+pedantic = "deny"
+nursery = "deny"
+unwrap_used = "deny"
+expect_used = "deny"
+
+[dependencies]
